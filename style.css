@@ -1,0 +1,160 @@
+/* globals */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    margin-block-start: 3em;
+    background: linear-gradient(45deg, #9b0041, #0018b4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    overflow-y: scroll;
+}
+
+body>* {
+    width: 800px;
+}
+
+.main-section {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.body-section {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+section {
+    margin-bottom: 1em;
+}
+
+#navBar {
+    display: flex;
+    justify-content: center;
+    background-color: #181733;
+    align-self: stretch;
+    font-weight: bolder;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#navBar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#navBar a {
+    display: block;
+    padding-block: 0.25em;
+    padding-inline: 1em;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}
+
+#navBar a:hover {
+    color: #fdc52c;
+}
+
+.main-header {
+    font-size: 3em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.second-header {
+    margin-bottom: 0.25em;
+}
+
+.third-header {
+    margin-bottom: 0.25em;
+    margin-top: 0.5em;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+form>div {
+    margin-block: 0.5em;
+}
+
+/* home page */
+#viscaBarca {
+    font-size: 2em;
+    color: #fdc52c;
+}
+
+.news {
+    text-align: center;
+}
+
+.table-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+#logo {
+    margin-top: 1em;
+    width: 150px;
+    border-radius: 999px;
+}
+
+/* camp nou */
+
+.contact-us-section {
+    text-align: center;
+}
+
+.contact-us-section label {
+    display: inline-block;
+    width: 13ch;
+}
+
+#travel {
+    text-align: center;
+}
+
+
+/* highlights */
+
+#lastGameHighlights {
+    font-size: 1.5em;
+    background-color: #fdc52c;
+    color: black;
+    padding-inline: 0.5ch;
+    border-radius: 0.5ch;
+}
+
+.highlights-iframe {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+/* about */
+
+#viscaBarcaViscaIsrael {
+    display: block;
+    font-size: 1.5em;
+    color: #fdc52c;
+    direction: ltr;
+}
+
+#email {
+    margin-block: 1em;
+}
